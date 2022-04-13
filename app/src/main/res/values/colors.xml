@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="colorPrimary">#FF0192D0</color>
+	<color name="colorPrimaryDark">#A00192D0</color>
+	<color name="colorAccent">#FF0192D0</color>
+
+	<color name="transparent_color">@android:color/transparent</color>
+	<color name="progress_color">#D00192D0</color>
+	<color name="divider_color">#FFE0E0E0</color>
+	<color name="black_mask_color">#A0000000</color>
+
+	<color name="white_color">#FFFFFFFF</color>
+	<color name="black_color">#FF000000</color>
+	<color name="gray_light_color">#FFE7E9ED</color>
+	<color name="gray_dark_color">#FF8B8B8B</color>
+	<color name="red_color">#FFFF3B30</color>
+	<color name="blue_color">#FF0192D0</color>
+	<color name="green_color">#FF4CB050</color>
+
+	<!-- For ImagePicker  -->
+	<color name="ucrop_color_toolbar">@color/blue_color</color>
+	<color name="ucrop_color_statusbar">@color/blue_color</color>
+	<color name="ucrop_color_toolbar_widget">@color/white_color</color>
+	<color name="ucrop_color_widget_active">@color/blue_color</color>
+	<color name="dialog_choose_icon_color">@color/blue_color</color>
+	<color name="dialog_choose_text_color">@color/blue_color</color>
+
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_margin="@dimen/_10sdp"
+	app:cardCornerRadius="@dimen/_5sdp"
+	app:cardElevation="@dimen/_5sdp">
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/_10sdp">
+		<TextView
+			android:id="@+id/txtCode"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:text="Code"
+			android:alpha="0.6"
+			style="@style/FontBold12"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintEnd_toStartOf="@id/txtCredits" />
+		<TextView
+			android:id="@+id/txtCredits"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="0"
+			style="@style/FontRegular12"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintEnd_toEndOf="parent" />
+		<TextView
+			android:id="@+id/txtTitle"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/_5sdp"
+			android:text="Title"
+			android:alpha="0.8"
+			style="@style/FontBold12"
+			app:layout_constraintTop_toBottomOf="@id/txtCode"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintEnd_toEndOf="parent" />
+		<View
+			android:id="@+id/viewDivider1"
+			android:layout_width="fill_parent"
+			android:layout_height="@dimen/_1sdp"
+			android:layout_margin="@dimen/_5sdp"
+			android:background="@color/gray_light_color"
+			app:layout_constraintTop_toBottomOf="@id/txtTitle"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintEnd_toEndOf="parent" />
+		<at.blogc.android.views.ExpandableTextView
+			android:id="@+id/expandableTextView"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/_5sdp"
+			android:maxLines="2"
+			android:text="Description"
+			android:alpha="0.7"
+			app:animation_duration="500"
+			style="@style/FontRegular12"
+			app:layout_constraintTop_toBottomOf="@id/viewDivider1"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintEnd_toStartOf="@id/btnExpand" />
+		<androidx.appcompat.widget.AppCompatImageButton
+			android:id="@+id/btnExpand"
+			android:layout_width="@dimen/_15sdp"
+			android:layout_height="@dimen/_15sdp"
+			android:layout_marginStart="@dimen/_5sdp"
+			android:layout_marginEnd="@dimen/_5sdp"
+			android:layout_gravity="bottom"
+			android:scaleType="fitCenter"
+			android:src="@drawable/ic_arrow_down"
+			android:tint="@color/colorPrimary"
+			android:background="?attr/selectableItemBackground"
+			app:layout_constraintBottom_toBottomOf="@id/expandableTextView"
+			app:layout_constraintStart_toEndOf="@id/expandableTextView"
+			app:layout_constraintEnd_toEndOf="parent" />
+		<View
+			android:id="@+id/viewDivider2"
+			android:layout_width="fill_parent"
+			android:layout_height="@dimen/_1sdp"
+			android:layout_margin="@dimen/_5sdp"
+			android:background="@color/gray_light_color"
+			app:layout_constraintTop_toBottomOf="@id/expandableTextView"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintEnd_toEndOf="parent" />
+		<TextView
+			android:id="@+id/txtPreRequisites"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="@dimen/_5sdp"
+			android:text="Pre Requisites"
+			style="@style/FontRegular12"
+			app:layout_constraintTop_toBottomOf="@id/viewDivider2"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintEnd_toEndOf="parent" />
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

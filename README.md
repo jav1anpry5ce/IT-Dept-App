@@ -1,7 +1,2 @@
-# ITDeptApp
-
-ITDeptApp for Johnson
-
-skype - live:jonathanjohnson95_1
-
-2022-04-08 18:50
+20191909 Jonathan Johnson
+20182855 Javaughn Pryce

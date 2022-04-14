@@ -95,9 +95,9 @@ class DBAdapter(private val mContext: Context) {
 			e.printStackTrace()
 		}
 		if (list.isEmpty()) {
-			list.add(UserInfo("Natalie Rose", "ithod@ucc.edu.jm", "+1 876 906-3000", "https://firebasestorage.googleapis.com/v0/b/eventsnappnew.appspot.com/o/test%2F01.jpg?alt=media&token=d9c9814d-86a4-4795-9596-aee2ff0aa528"))
-			list.add(UserInfo("Otis Osbourne", "itfaculty@ucc.edu.jm", "+1 876 906-3000", "https://firebasestorage.googleapis.com/v0/b/eventsnappnew.appspot.com/o/test%2F02.jpg?alt=media&token=f82449af-b380-4066-a419-46a103c1c264"))
-			list.add(UserInfo("Neil Williams", "itlecturer@ucc.edu.jm", "+1 876 906-3000", "https://firebasestorage.googleapis.com/v0/b/eventsnappnew.appspot.com/o/test%2F03.jpg?alt=media&token=1afab318-6d72-4dc0-a008-a877f62ceaf5"))
+			list.add(UserInfo("Natalie Rose", "ithod@ucc.edu.jm", "+1 876 906-3000", "https://jamaica-gleaner.com/sites/default/files/styles/jg_article_image/public/media/article_images/2018/11/22/NatalieRoseA20181120LR.jpg?itok=40nQ29hP"))
+			list.add(UserInfo("Otis Osbourne", "itfaculty@ucc.edu.jm", "+1 876 906-3000", "https://pbs.twimg.com/profile_images/1389979286854115329/p8KFeFpb_400x400.jpg"))
+			list.add(UserInfo("Neil Williams", "itlecturer@ucc.edu.jm", "+1 876 906-3000", "https://img1.wsimg.com/isteam/ip/fde9f60c-773a-4e67-acd2-19344071b213/Neil%20Williams.jpg/:/rs=w:365,h:365,cg:true,m/cr=w:365,h:365"))
 			list.add(UserInfo("Dr. Sajjad Rizvi", "srizvi@faculty.ucc.edu.jm", "+1 876 906-3000", "https://d2cax41o7ahm5l.cloudfront.net/mi/ocm/appliedphysics-mathematics-dr-syed-sajjad-hussain-rizvi-450678932.jpg"))
 			list.add(UserInfo("Henry Osborne", "hosbourne@ucc.edu.jm", "+1 876 906-3000", "https://pbs.twimg.com/profile_images/1277350205873061888/e372ox-5_400x400.jpg"))
 			list.forEach { insertUserInfo(it) }
